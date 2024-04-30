@@ -2,7 +2,7 @@
 
 myip=$(ip -4 -o address show enp1s0 | awk '{print $4}' | cut -d '/' -f 1)
 mask=$(ip -4 -o address show enp1s0 | awk '{print $4}' | cut -d '/' -f 2)
-username="pratham"
+username="jatin"
 password="ubuntu"
 home_ip="192.168.122.108"
 
